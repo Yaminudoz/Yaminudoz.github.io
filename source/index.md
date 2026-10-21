@@ -1,0 +1,40 @@
+---
+title: 拾阶 · 学习资源与笔记
+date: 2026-10-21 18:00:00
+layout: false
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="拾阶：学习资源、编程笔记与科研方法。">
+<title>拾阶 · 学习资源与笔记</title>
+<link rel="stylesheet" href="/css/shijie.css">
+</head>
+<body>
+<header class="wrap top"><a class="brand" href="/"><span class="logo">拾</span><span>拾阶<span class="small">LEARN · BUILD · REFLECT</span></span></a><nav class="nav"><a href="#resources">资源库</a><a href="#roadmap">学习路线</a><a href="/archives/">文章归档</a><a href="/about/">关于</a></nav><a class="github" href="https://github.com/Yaminudoz/Yaminudoz.github.io">GitHub ↗</a></header>
+<main>
+<section class="hero wrap"><div><div class="eyebrow">A SMALL STEP, EVERY DAY</div><h1>把好奇心，<br>变成 <span class="highlight">持续的积累。</span></h1><p class="lead">这里是「拾阶」——一个收集学习资源、整理技术笔记、记录实践过程的小角落。不追求一步登天，只希望每次都比上一次更进一步。</p><div class="actions"><a class="btn primary" href="#resources">探索学习资源 ↘</a><a class="btn secondary" href="/archives/">阅读文章 →</a></div></div><aside class="feature"><div class="meta">NOTEBOOK / 001　<span class="pill">持续更新</span></div><h2>学会一件事，<br>就把它讲清楚。</h2><p>把零散的链接变成路线，把遇到的问题变成笔记，把每一次练习变成下一次出发的台阶。</p><a href="/archives/">从最近的记录开始　↗</a></aside></section>
+<div class="ticker"><div class="wrap ticker-inner"><strong>EXPLORE BY TOPIC</strong><span>编程开发　·　人工智能　·　数学基础　·　科研工具　·　学习方法</span></div></div>
+<section class="section wrap" id="resources"><div class="section-head"><div><div class="kicker">THE RESOURCE SHELF</div><h2 class="section-title">学习资源库</h2></div><p class="desc">搜索名称或关键词，或选择分类，快速找到需要的资源。</p></div>
+<div class="library"><div class="tools"><label class="search"><span>⌕</span><input id="resource-search" type="search" placeholder="搜索资源名称、用途或关键词…" aria-label="搜索资源"></label><div class="filters" id="resource-filters"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="code">编程开发</button><button class="filter" data-filter="ai">人工智能</button><button class="filter" data-filter="math">数学学习</button><button class="filter" data-filter="research">科研工具</button><button class="filter" data-filter="tools">效率工具</button></div></div>
+<div class="resource-grid" id="resource-grid">
+<article class="resource" data-category="code" data-search="MDN Web Docs HTML CSS JavaScript 前端 官方文档"><div class="resource-top"><span class="resource-icon">⌘</span><span class="tag">编程开发</span></div><h3>MDN Web Docs</h3><p>系统学习 HTML、CSS、JavaScript，查阅可靠的 Web 开发文档。</p><a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="code" data-search="GitHub 代码仓库 版本控制 开源 项目"><div class="resource-top"><span class="resource-icon">⌁</span><span class="tag">编程开发</span></div><h3>GitHub</h3><p>托管代码、追踪版本、参与开源项目，也可以发布个人静态网站。</p><a href="https://github.com/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="ai" data-search="PyTorch 深度学习 机器学习 教程 文档"><div class="resource-top"><span class="resource-icon">◈</span><span class="tag">人工智能</span></div><h3>PyTorch</h3><p>学习张量操作、神经网络构建、模型训练与深度学习实践。</p><a href="https://pytorch.org/docs/stable/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="ai" data-search="Google Machine Learning Crash Course 机器学习 课程"><div class="resource-top"><span class="resource-icon">◎</span><span class="tag">人工智能</span></div><h3>Machine Learning Crash Course</h3><p>通过课程模块和练习，建立机器学习的基础概念与实践经验。</p><a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="math" data-search="Khan Academy 数学 微积分 线性代数 概率"><div class="resource-top"><span class="resource-icon">∑</span><span class="tag">数学学习</span></div><h3>Khan Academy</h3><p>用分层课程和练习补足代数、微积分、统计与概率基础。</p><a href="https://www.khanacademy.org/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="math" data-search="3Blue1Brown 线性代数 微积分 可视化 数学"><div class="resource-top"><span class="resource-icon">△</span><span class="tag">数学学习</span></div><h3>3Blue1Brown</h3><p>通过直观动画理解线性代数、微积分与其他抽象数学概念。</p><a href="https://www.3blue1brown.com/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="research" data-search="arXiv 论文 预印本 学术研究"><div class="resource-top"><span class="resource-icon">⌑</span><span class="tag">科研工具</span></div><h3>arXiv</h3><p>检索计算机科学、数学、物理等领域的预印本论文与最新研究。</p><a href="https://arxiv.org/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="research" data-search="Google Scholar 谷歌学术 文献检索 引用"><div class="resource-top"><span class="resource-icon">⌕</span><span class="tag">科研工具</span></div><h3>Google Scholar</h3><p>查找学术文献、追踪引用关系，并发现相关研究工作。</p><a href="https://scholar.google.com/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="tools" data-search="Zotero 文献管理 论文 引用 PDF 科研效率"><div class="resource-top"><span class="resource-icon">▣</span><span class="tag">效率工具</span></div><h3>Zotero</h3><p>收集、整理和引用论文资料，搭建便于检索的文献库。</p><a href="https://www.zotero.org/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+<article class="resource" data-category="tools" data-search="Obsidian 笔记 知识库 Markdown 个人知识管理"><div class="resource-top"><span class="resource-icon">◇</span><span class="tag">效率工具</span></div><h3>Obsidian</h3><p>以 Markdown 笔记组织知识，通过链接建立个人知识网络。</p><a href="https://obsidian.md/" target="_blank" rel="noopener">打开资源 ↗</a></article>
+</div><p class="empty" id="resource-empty" hidden>没有找到匹配的资源，请尝试其他关键词或分类。</p><div class="resource-count" id="resource-count">显示 10 项资源</div></div></section>
+<section class="section roadmap" id="roadmap"><div class="wrap"><div class="section-head"><div><div class="kicker">A PATH, NOT A RACE</div><h2 class="section-title">循序渐进的学习路线</h2></div><p class="desc">把大目标拆成可以开始的小步骤，根据基础和进度调整学习顺序。</p></div><div class="steps"><article class="step"><span class="step-no">01</span><div><h3>打好基础</h3><p>建立编程、数学与工具使用的基本功，理解核心概念。</p><div class="chips"><span>基础语法</span><span>线性代数</span><span>Git</span></div></div></article><article class="step"><span class="step-no">02</span><div><h3>动手实践</h3><p>通过小项目和可复现的练习，把概念转化为能运行的成果。</p><div class="chips"><span>Python</span><span>数据分析</span><span>项目练习</span></div></div></article><article class="step"><span class="step-no">03</span><div><h3>深入专题</h3><p>围绕感兴趣的问题阅读文档与论文，比较方法并记录结论。</p><div class="chips"><span>论文阅读</span><span>模型复现</span><span>技术笔记</span></div></div></article><article class="step"><span class="step-no">04</span><div><h3>总结与分享</h3><p>整理踩坑记录，把零散知识沉淀成可复用的个人知识库。</p><div class="chips"><span>复盘</span><span>写作</span><span>持续迭代</span></div></div></article></div></div></section>
+<section class="section wrap" id="notes"><div class="section-head"><div><div class="kicker">FIELD NOTES</div><h2 class="section-title">最近的笔记</h2></div><a class="text-link" href="/archives/">查看全部文章 ↗</a></div><div class="notes-grid"><a class="note-card" href="/2026/10/21/welcome-to-shijie/"><span class="note-date">2026-10-21 · 博客说明</span><h3>欢迎来到拾阶</h3><p>记录这个学习角落的方向、内容和写作方式。</p><span class="read-more">阅读全文 →</span></a><a class="note-card" href="/2026/10/21/learning-roadmap/"><span class="note-date">2026-10-21 · 学习方法</span><h3>如何规划一条可执行的学习路线</h3><p>从目标拆分、实践反馈到定期复盘，让学习更容易坚持。</p><span class="read-more">阅读全文 →</span></a></div></section>
+<section class="about-band"><div class="wrap about-inner"><div><div class="kicker">ABOUT SHIJIE</div><h2>拾级而上，<br>慢慢成为想成为的人。</h2></div><div><p>本站用于收集实用学习资源、整理技术笔记，并记录探索新领域时的思考。希望这里的内容能让学习少一点迷路，多一点方向。</p><a class="btn secondary" href="/about/">了解本站 →</a></div></div></section>
+</main>
+<footer class="footer wrap"><a class="brand" href="/"><span class="logo">拾</span><span>拾阶<span class="small">LEARN · BUILD · REFLECT</span></span></a><span>持续学习，持续记录。</span><span>Powered by Hexo · NexT</span></footer>
+<script src="/js/shijie.js" defer></script>
+</body></html>
