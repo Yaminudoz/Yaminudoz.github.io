@@ -1,0 +1,6 @@
+---
+title: 关于拾阶
+date: 2026-10-21 18:00:00
+layout: false
+---
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>关于拾阶</title><link rel="stylesheet" href="/css/shijie.css"></head><body><header class="top wrap"><a class="brand" href="/"><span class="logo">拾</span><span>拾阶<span class="small">LEARN · BUILD · REFLECT</span></span></a><nav class="nav"><a href="/">首页</a><a href="/#resources">资源库</a><a href="/archives/">文章归档</a></nav><a class="github" href="https://github.com/Yaminudoz/Yaminudoz.github.io">GitHub ↗</a></header><main class="wrap section"><div class="kicker">ABOUT SHIJIE</div><h1 class="section-title">拾级而上，慢慢积累。</h1><p class="lead">「拾阶」是一个个人学习资源与技术笔记站点，用来收集值得反复查阅的资源、整理学习过程中遇到的问题，并记录逐步理解一个主题的过程。</p><div class="notes-grid"><article class="note-card"><h3>学习资源</h3><p>把分散的课程、文档、工具与论文入口整理在一起，方便检索和回顾。</p></article><article class="note-card"><h3>技术笔记</h3><p>记录编程实践、方法总结、问题排查与阅读心得，尽量让每篇内容可复用。</p></article><article class="note-card"><h3>学习路线</h3><p>将长期目标拆分为基础、实践、专题和复盘几个阶段，并按实际进度调整。</p></article><article class="note-card"><h3>持续改进</h3><p>本站由 Hexo 生成，文章以 Markdown 管理，内容会随着学习过程不断更新。</p></article></div><p style="margin-top:28px"><a class="btn primary" href="/archives/">浏览文章 →</a></p></main><footer class="footer wrap"><a href="/">拾阶首页</a><span>持续学习，持续记录。</span></footer></body></html>
